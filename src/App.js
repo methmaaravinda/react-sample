@@ -1,9 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Hemal from './components/Hemal';
+import Prasanna from './components/Prasanna';
+
 
 function App() {
   return (
     <div className="App">
+      <Hemal></Hemal>
+      <Prasanna></Prasanna>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
